@@ -5,7 +5,7 @@ class DependentFieldForm(ModelForm):
     dependent_fields = None
 
     class Media:
-        js = ('js/field_swapper.js',)
+        js = ('js/limit_dependent_fields.js',)
 
     def __init__(self, *args, **kwargs):
         self.set_dependent_fields(self.dependent_fields)
