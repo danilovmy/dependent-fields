@@ -38,7 +38,3 @@ function patchUrl(elem) {
     })
 }
 
-// addEventListener
-// document.addEventListener('DOMContentLoaded', function () {
-    // document.querySelectorAll('select[id^="id_productattributes"][id$="attribute"]').forEach(item => item.onchange())
-// });
